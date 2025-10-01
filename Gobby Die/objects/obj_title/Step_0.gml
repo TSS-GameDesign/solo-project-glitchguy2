@@ -1,0 +1,1 @@
+image_angle = sin(current_time / 700) * 10; // 700 = time  10 = degrees

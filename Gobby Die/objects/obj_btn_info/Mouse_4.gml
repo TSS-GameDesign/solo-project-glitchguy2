@@ -1,0 +1,1 @@
+show_message("Tag Game\n\nHold 'M' for 3 seconds to return to the Menu\n\nWASD (S is Dash) = Player 1 (Blue)\nArrows (Down is Dash) = Player 2 (Pink)\nIJKL (K is Dash) = Player 3 (Red)\n\nCollide with other players to tag them.\nThe Tagger is faster and has a lower cooldown.\nBe IT for the least amount of time to win.");
