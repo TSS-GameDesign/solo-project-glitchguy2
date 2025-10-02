@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"ruins",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_solidslope",
+  "eventList":[],
   "managed":true,
-  "name":"ruins",
+  "name":"obj_solidslope",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tag",
-    "path":"folders/Objects/Tag.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_solid",
+    "path":"objects/obj_solid/obj_solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"arrow",
-    "path":"sprites/arrow/arrow.yy",
+    "name":"spr_slope",
+    "path":"sprites/spr_slope/spr_slope.yy",
   },
   "spriteMaskId":null,
   "visible":true,

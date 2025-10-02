@@ -10,8 +10,8 @@
   "name":"obj_afterimage",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tag",
+    "path":"folders/Objects/Tag.yy",
   },
   "parentObjectId":null,
   "persistent":false,

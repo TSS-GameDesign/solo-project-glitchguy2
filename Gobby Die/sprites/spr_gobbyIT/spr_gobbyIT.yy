@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Tagspr",
+    "path":"folders/Sprites/Tagspr.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

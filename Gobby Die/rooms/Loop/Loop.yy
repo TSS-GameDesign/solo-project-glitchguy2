@@ -55,8 +55,8 @@
   ],
   "name":"Loop",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tagrms",
+    "path":"folders/Rooms/Tagrms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
