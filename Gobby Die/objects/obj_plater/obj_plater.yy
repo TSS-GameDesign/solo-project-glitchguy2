@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_platbs",
+  "%Name":"obj_plater",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_platbs",
+  "name":"obj_plater",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_bSquareRun",
-    "path":"sprites/spr_bSquareRun/spr_bSquareRun.yy",
+    "name":"spr_eRedRun",
+    "path":"sprites/spr_eRedRun/spr_eRedRun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

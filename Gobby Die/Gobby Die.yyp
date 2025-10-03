@@ -47,6 +47,8 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_musiccontroller","path":"objects/obj_musiccontroller/obj_musiccontroller.yy",},},
     {"id":{"name":"obj_platbs","path":"objects/obj_platbs/obj_platbs.yy",},},
+    {"id":{"name":"obj_plater","path":"objects/obj_plater/obj_plater.yy",},},
+    {"id":{"name":"obj_platps","path":"objects/obj_platps/obj_platps.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_player3","path":"objects/obj_player3/obj_player3.yy",},},

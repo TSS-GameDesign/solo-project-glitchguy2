@@ -7,17 +7,17 @@ var wall_left = place_meeting(x - 1, y, obj_solid);
 var wall_right = place_meeting(x + 1, y, obj_solid);
 
 // Jumping
-if (keyboard_check_pressed(ord("W"))) {
+if (keyboard_check(vk_up)) {
     if (on_ground) {
         vsp = jumpspeed;
     }
 }    
 // Input movement
-if (keyboard_check(ord("D"))) {
+if (keyboard_check(vk_right)) {
     hsp = movespeed;
     facing = 1;
 }
-if (keyboard_check(ord("A"))) {
+if (keyboard_check(vk_left)) {
     hsp = -movespeed;
     facing = -1;
 }
