@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solidslope",
+  "%Name":"obj_boost",
   "eventList":[],
   "managed":true,
-  "name":"obj_solidslope",
+  "name":"obj_boost",
   "overriddenProperties":[],
   "parent":{
     "name":"marble",
     "path":"folders/Objects/marble.yy",
   },
-  "parentObjectId":{
-    "name":"obj_solid",
-    "path":"objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slope",
-    "path":"sprites/spr_slope/spr_slope.yy",
+    "name":"spr_boost",
+    "path":"sprites/spr_boost/spr_boost.yy",
   },
   "spriteMaskId":null,
   "visible":true,

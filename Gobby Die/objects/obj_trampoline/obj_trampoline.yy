@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solidslope",
+  "%Name":"obj_trampoline",
   "eventList":[],
   "managed":true,
-  "name":"obj_solidslope",
+  "name":"obj_trampoline",
   "overriddenProperties":[],
   "parent":{
     "name":"marble",
     "path":"folders/Objects/marble.yy",
   },
-  "parentObjectId":{
-    "name":"obj_solid",
-    "path":"objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slope",
-    "path":"sprites/spr_slope/spr_slope.yy",
+    "name":"spr_bouncy",
+    "path":"sprites/spr_bouncy/spr_bouncy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

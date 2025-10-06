@@ -44,3 +44,20 @@ if (!place_meeting(x, y + vsp, obj_solid)) {
     }
     vsp = 0;
 }
+
+// Trampoline haha
+if (place_meeting(x, y + vsp, obj_trampoline)) {
+    // Move the object down until just touching the trampoline
+    while (!place_meeting(x, y + sign(vsp), obj_trampoline)) {
+        y += sign(vsp);
+    }
+    
+    // Go up
+    vsp = -9; // bounce strength
+}
+
+// Check if touching boost pad
+if (place_meeting(x, y, obj_boost)) {
+    movespeed = boost_speed;
+    alarm[0] = room_speed * 2; // reset in 3 seconds
+}
