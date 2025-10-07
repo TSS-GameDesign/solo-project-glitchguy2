@@ -25,25 +25,31 @@ if (keyboard_check(ord("J"))) {
 // Gravity
 vsp += grv;
 
-// Horizontal movement & collision
-if (!place_meeting(x + hsp, y, obj_solid)) {
-    x += hsp;
-} else {
-    while (!place_meeting(x + sign(hsp), y, obj_solid)) {
-        x += sign(hsp);
+var h_steps = abs(hsp);
+var h_dir = sign(hsp);
+
+for (var i = 0; i < h_steps; i++) {
+    if (!instance_place(x + h_dir, y, obj_solid) && !instance_place(x + h_dir, y, obj_startbarrier)) {
+        x += h_dir;
+    } else {
+        hsp = 0;
+        break;
     }
-    hsp = 0;
 }
 
-// Vertical movement & collision
-if (!place_meeting(x, y + vsp, obj_solid)) {
-    y += vsp;
-} else {
-    while (!place_meeting(x, y + sign(vsp), obj_solid)) {
-        y += sign(vsp);
+var v_steps = abs(vsp);
+var v_dir = sign(vsp);
+
+for (var i = 0; i < v_steps; i++) {
+    if (!instance_place(x, y + v_dir, obj_solid) && !instance_place(x, y + v_dir, obj_startbarrier)) {
+        y += v_dir;
+    } else {
+        vsp = 0;
+        break;
     }
-    vsp = 0;
 }
+
+
 
 // Trampoline haha
 if (place_meeting(x, y + vsp, obj_trampoline)) {

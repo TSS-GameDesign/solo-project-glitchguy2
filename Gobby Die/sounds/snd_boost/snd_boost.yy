@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"mus_map1",
+  "%Name":"snd_boost",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":113.74932,
-  "name":"mus_map1",
+  "duration":0.82392293,
+  "name":"snd_boost",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_map1.mp3",
+  "soundFile":"snd_boost.mp3",
   "type":0,
-  "volume":0.36,
+  "volume":0.42,
 }

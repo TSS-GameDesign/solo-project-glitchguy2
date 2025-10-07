@@ -6,5 +6,6 @@ if (keyboard_check(ord("M"))) {
 }
 
 if (hold_time >= room_speed * 3) { // 3 seconds
-    room_goto(rm_marbles); // Replace with your start room name
+    room_goto(rm_marbles);
+    audio_stop_all() // To stop the music
 }
