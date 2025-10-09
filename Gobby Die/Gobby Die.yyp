@@ -72,6 +72,7 @@
     {"id":{"name":"Gauntlet","path":"rooms/Gauntlet/Gauntlet.yy",},},
     {"id":{"name":"Loop","path":"rooms/Loop/Loop.yy",},},
     {"id":{"name":"rm_1_1","path":"rooms/rm_1_1/rm_1_1.yy",},},
+    {"id":{"name":"rm_heist","path":"rooms/rm_heist/rm_heist.yy",},},
     {"id":{"name":"rm_levelselect","path":"rooms/rm_levelselect/rm_levelselect.yy",},},
     {"id":{"name":"rm_marbles","path":"rooms/rm_marbles/rm_marbles.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
@@ -128,6 +129,7 @@
     {"roomId":{"name":"Gauntlet","path":"rooms/Gauntlet/Gauntlet.yy",},},
     {"roomId":{"name":"rm_levelselect","path":"rooms/rm_levelselect/rm_levelselect.yy",},},
     {"roomId":{"name":"rm_1_1","path":"rooms/rm_1_1/rm_1_1.yy",},},
+    {"roomId":{"name":"rm_heist","path":"rooms/rm_heist/rm_heist.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
