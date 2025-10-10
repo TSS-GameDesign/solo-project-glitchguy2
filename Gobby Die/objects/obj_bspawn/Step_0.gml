@@ -1,17 +1,8 @@
-// Spawn rate in frames
-spawn_rate = 120; // every 2 seconds
-timer = 0;
+spawn_timer += 1;
 
-timer += 1;
 
-// Time to spawn a new object
-if (timer >= spawn_rate) {
-    timer = 0;
-
-    // Randomly choose which object to spawn
-    if (irandom(1) == 0) {
-        instance_create_layer(x, y, "Instances", obj_dboost);
-    } else {
-        instance_create_layer(x, y, "Instances", obj_dtrampoline);
-    }
+if (spawn_timer >= spawn_interval) {
+    spawn_timer = 0
+    // Spawn a laser at this spawner's position
+    instance_create_layer(x, y, "Instances", obj_dtrampoline);
 }

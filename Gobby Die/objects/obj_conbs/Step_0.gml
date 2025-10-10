@@ -54,8 +54,8 @@ for (var i = 0; i < v_steps; i++) {
 
 
 // Trampoline haha
-if (place_meeting(x, y + vsp, obj_trampoline)) {
-    while (!place_meeting(x, y + sign(vsp), obj_trampoline)) {
+if (place_meeting(x, y + vsp, obj_dtrampoline)) {
+    while (!place_meeting(x, y + sign(vsp), obj_dtrampoline)) {
         y += sign(vsp);
     }
     
@@ -64,7 +64,7 @@ if (place_meeting(x, y + vsp, obj_trampoline)) {
 }
 
 // Check if touching boost pad
-if (place_meeting(x, y, obj_boost)) {
+if (place_meeting(x, y, obj_dboost)) {
     movespeed = boost_speed;
     alarm[0] = room_speed * 2; // reset in 2 seconds
 }

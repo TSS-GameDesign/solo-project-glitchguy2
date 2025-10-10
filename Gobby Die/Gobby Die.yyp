@@ -138,8 +138,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_marbles","path":"rooms/rm_marbles/rm_marbles.yy",},},
     {"roomId":{"name":"rm_conveyor","path":"rooms/rm_conveyor/rm_conveyor.yy",},},
+    {"roomId":{"name":"rm_marbles","path":"rooms/rm_marbles/rm_marbles.yy",},},
     {"roomId":{"name":"rm_heist","path":"rooms/rm_heist/rm_heist.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"Battlefield","path":"rooms/Battlefield/Battlefield.yy",},},
