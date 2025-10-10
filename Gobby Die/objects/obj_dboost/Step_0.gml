@@ -1,5 +1,6 @@
 // Gravity
 vsp += grv;
+
 var h_steps = abs(hsp);
 var h_dir = sign(hsp);
 
