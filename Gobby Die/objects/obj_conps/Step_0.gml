@@ -28,6 +28,9 @@ vsp += grv;
 var h_steps = abs(hsp);
 var h_dir = sign(hsp);
 
+var h_steps = abs(hsp);
+var h_dir = sign(hsp);
+
 for (var i = 0; i < h_steps; i++) {
     if (!instance_place(x + h_dir, y, obj_solid) && !instance_place(x + h_dir, y, obj_startbarrier)) {
         x += h_dir;

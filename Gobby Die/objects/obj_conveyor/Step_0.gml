@@ -1,5 +1,6 @@
 // Conveyor speed
-conspeed = -5; // Negative = left, positive = right
+conspeed = spawny; // Negative = left, positive = right
+diff_timer += 1;
 
 // Loop over all instances
 with (all) {
@@ -13,3 +14,7 @@ with (all) {
     }
 }
 
+if (diff_timer >= diff_inter) {
+    diff_timer = 0;
+    spawny  -= 1;
+}

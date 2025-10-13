@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_conveyor",
+  "%Name":"obj_dbox",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_conveyor",
+  "name":"obj_dbox",
   "overriddenProperties":[],
   "parent":{
     "name":"Conveyor",
     "path":"folders/Objects/Conveyor.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_solid",
+    "path":"objects/obj_solid/obj_solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +32,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_conveyor",
-    "path":"sprites/spr_conveyor/spr_conveyor.yy",
+    "name":"Sprite1",
+    "path":"sprites/Sprite1/Sprite1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

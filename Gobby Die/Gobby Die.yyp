@@ -55,6 +55,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_conveyor","path":"objects/obj_conveyor/obj_conveyor.yy",},},
     {"id":{"name":"obj_dboost","path":"objects/obj_dboost/obj_dboost.yy",},},
+    {"id":{"name":"obj_dbox","path":"objects/obj_dbox/obj_dbox.yy",},},
     {"id":{"name":"obj_dtrampoline","path":"objects/obj_dtrampoline/obj_dtrampoline.yy",},},
     {"id":{"name":"obj_laskill","path":"objects/obj_laskill/obj_laskill.yy",},},
     {"id":{"name":"obj_lasspawn","path":"objects/obj_lasspawn/obj_lasspawn.yy",},},

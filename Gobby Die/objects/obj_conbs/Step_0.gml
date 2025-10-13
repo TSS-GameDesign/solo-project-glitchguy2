@@ -69,6 +69,3 @@ if (place_meeting(x, y, obj_dboost)) {
     alarm[0] = room_speed * 2; // reset in 2 seconds
 }
 
-if (place_meeting(x, y, obj_conveyor)) {
-    hsp = -5; // Move left
-}

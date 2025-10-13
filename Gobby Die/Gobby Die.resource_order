@@ -34,6 +34,7 @@
     {"name":"obj_controller","order":6,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_conveyor","order":1,"path":"objects/obj_conveyor/obj_conveyor.yy",},
     {"name":"obj_dboost","order":5,"path":"objects/obj_dboost/obj_dboost.yy",},
+    {"name":"obj_dbox","order":7,"path":"objects/obj_dbox/obj_dbox.yy",},
     {"name":"obj_dtrampoline","order":6,"path":"objects/obj_dtrampoline/obj_dtrampoline.yy",},
     {"name":"obj_laskill","order":2,"path":"objects/obj_laskill/obj_laskill.yy",},
     {"name":"obj_movlas","order":1,"path":"objects/obj_movlas/obj_movlas.yy",},
